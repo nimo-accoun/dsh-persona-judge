@@ -28,6 +28,14 @@
     "judge",
     "calibration"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimo-accoun/dsh-posena-judge.git"
+  },
+  "homepage": "https://github.com/nimo-accoun/dsh-posena-judge#readme",
+  "bugs": {
+    "url": "https://github.com/nimo-accoun/dsh-posena-judge/issues"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
