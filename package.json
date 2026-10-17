@@ -1,0 +1,44 @@
+{
+  "name": "dsh-persona-judge",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Extract the user's own catchphrases and persona from their messages, judge each finished turn against that derived standard, and turn an agreed guess into calibration data.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "docs",
+    "tools",
+    "cordis.patch.yml",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "persona",
+    "judge",
+    "calibration"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test --test-isolation=none tests/shared.test.mjs tests/host.test.mjs",
+    "test:all": "node --test --test-isolation=none tests/config.test.mjs tests/shared.test.mjs tests/host.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
