@@ -30,11 +30,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nimo-accoun/dsh-posena-judge.git"
+    "url": "git+https://github.com/nimo-accoun/dsh-persona-judge.git"
   },
-  "homepage": "https://github.com/nimo-accoun/dsh-posena-judge#readme",
+  "homepage": "https://github.com/nimo-accoun/dsh-persona-judge#readme",
   "bugs": {
-    "url": "https://github.com/nimo-accoun/dsh-posena-judge/issues"
+    "url": "https://github.com/nimo-accoun/dsh-persona-judge/issues"
   },
   "dsh": {
     "bundle": {
